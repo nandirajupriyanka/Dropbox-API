@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical"
+    android:paddingTop="10dp" >
+
+    <Button
+        android:id="@+id/link_button"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:background="#ADD8E6"
+        android:paddingTop="15dp"
+        android:text="@string/link" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:id="@+id/display">
+
+        <Button
+            android:id="@+id/viewAll"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#ADD8E6"
+            android:text="@string/viewAll" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/ic_launcher" />
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.67"
+           >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" 
+                android:id="@+id/scrollList">
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/mic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.32"
+                android:contentDescription="@string/desc"
+                android:src="@drawable/mic" />
+
+            <ImageButton
+                android:id="@+id/compose"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.37"
+                android:contentDescription="@string/desc"
+                android:src="@drawable/text" />
+
+            <ImageButton
+                android:id="@+id/camera"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.35"
+                android:contentDescription="@string/desc"
+                android:src="@drawable/cam" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CreativePics</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="link">Link with Dropbox</string>
+    <string name="camera_button">Click for Camera</string>
+    <string name="title_activity_upload_photo">UploadPhoto</string>
+    <string name="title_activity_text_editor">TextEditor</string>
+    <string name="title_activity_upload_text">UploadText</string>
+    <string name="viewAll">View Uploaded Photos</string>
+    <string name="desc">Content Description</string>
+    <string name="save">Save </string>
+    <string name="saveAs">Save File As</string>
+    <string name="notes">Enter your Notes here</string>
+    
+
+</resources>

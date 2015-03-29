@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.creativepics.MainActivity" >
+
+    <item
+        android:id="@+id/action_option"
+        android:icon="@drawable/cam"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Options">
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:title="Settings"/>
+            <item
+                android:id="@+id/uploads"
+                android:title="Other Uploads"/>
+           
+        </menu>
+    </item>
+
+</menu>
